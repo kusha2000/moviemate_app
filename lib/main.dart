@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: GoogleFonts.poppins().fontFamily,
-        brightness: Brightness.light,
+        brightness: Brightness.dark,
       ),
       home: HomePage(),
     );
