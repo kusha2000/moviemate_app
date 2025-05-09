@@ -74,7 +74,7 @@ class _SearchPageState extends State<SearchPage> {
                     height: 60,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Colors.red[600],
+                      color: Colors.blue[600],
                     ),
                     child: IconButton(
                       icon: const Icon(
@@ -93,7 +93,7 @@ class _SearchPageState extends State<SearchPage> {
             else if (_error.isNotEmpty)
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Text(_error, style: const TextStyle(color: Colors.red)),
+                child: Text(_error, style: const TextStyle(color: Colors.blue)),
               )
             else if (_searchResults.isEmpty)
               const Expanded(
