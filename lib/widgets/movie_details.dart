@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:moviemate_app/models/movie_model.dart';
+import 'package:moviemate_app/pages/single_movie.dart';
 
 class MovieDetailsWidget extends StatefulWidget {
   final Movie movie;
@@ -41,12 +42,12 @@ class _MovieDetailsWidgetState extends State<MovieDetailsWidget>
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // Navigator.push(
-        //   context,
-        //   MaterialPageRoute(
-        //     builder: (context) => SingleMoviePage(movie: movie),
-        //   ),
-        // );
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => SingleMoviePage(movie: widget.movie),
+          ),
+        );
       },
       child: ScaleTransition(
         scale: _scaleAnimation,
@@ -54,14 +55,7 @@ class _MovieDetailsWidgetState extends State<MovieDetailsWidget>
           margin: const EdgeInsets.symmetric(vertical: 10),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
-            gradient: LinearGradient(
-              colors: [
-                const Color(0xFF1C2526).withOpacity(0.9),
-                const Color(0xFF2D2D2D).withOpacity(0.9),
-              ],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            ),
+            color: const Color(0xFF1A1A2E),
             boxShadow: [
               BoxShadow(
                 color: Colors.black.withOpacity(0.4),

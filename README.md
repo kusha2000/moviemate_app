@@ -14,7 +14,7 @@ This app is a dynamic platform for discovering movies and TV shows, leveraging t
 ✅Now Playing Movies: Showcases a list of currently playing movies with real-time updates.<br>
 ✅Infinite Scrolling: Provides a seamless browsing experience with infinite scrolling for movies and TV shows.<br>
 ✅TV Shows: Explore a dedicated section for TV shows with detailed insights.<br>
-Movie Search: Easily search for movies with a user-friendly search feature.<br>
+✅Movie Search: Easily search for movies with a user-friendly search feature.<br>
 ✅Full Movie Details: Access in-depth movie information, including cast, synopsis, ratings, and more.<br>
 ✅Similar Movies: Discover movies similar to the selected title for an enhanced viewing experience.<br>
 ✅Recommended Movies: Receive personalized movie recommendations based on your preferences.<br>

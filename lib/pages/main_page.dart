@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:moviemate_app/models/movie_model.dart';
+import 'package:moviemate_app/pages/single_movie.dart';
 import 'package:moviemate_app/services/movies_service.dart';
 import 'package:moviemate_app/widgets/movie_details.dart';
 
@@ -106,12 +107,12 @@ class _MainPageState extends State<MainPage> {
             final movie = _movies[index];
             return GestureDetector(
               onTap: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) => SingleMoviePage(movie: movie),
-                //   ),
-                // );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => SingleMoviePage(movie: movie),
+                  ),
+                );
               },
               child: MovieDetailsWidget(movie: movie),
             );
