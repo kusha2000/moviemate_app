@@ -25,9 +25,16 @@ This app is a dynamic platform for discovering movies and TV shows, leveraging t
 
 
 
+https://github.com/user-attachments/assets/1bda65a5-fdd0-4e8a-bdac-8a6d58da1017
+
+
+
 <br><br>
 <h2>This is the screenshots of the system</h2><br><br>
 
-
-
-
+<img src="https://github.com/user-attachments/assets/f705621c-1a3e-4967-8fe3-44923b87b096" width="300" height="600">
+<img src="https://github.com/user-attachments/assets/cc21c713-bb8d-4e2f-b1d4-e04ae9f8e5d7" width="300" height="600">
+<img src="https://github.com/user-attachments/assets/75d57d36-64f5-4872-bfcf-65848d148968" width="300" height="600">
+<img src="https://github.com/user-attachments/assets/7b01c58b-dcbc-45c2-90e5-024b8985f4b4" width="300" height="600">
+<img src="https://github.com/user-attachments/assets/c200c9bf-3275-4311-95c6-757a441af706" width="300" height="600">
+<img src="https://github.com/user-attachments/assets/ce2173d9-3f78-4323-bac5-d563de1409d7" width="300" height="600">
